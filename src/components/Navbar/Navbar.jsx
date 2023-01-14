@@ -18,7 +18,7 @@ export default function Navbar() {
               <li>Testimonials</li>
             </ul>
           </div>
-          <button className={`button ${style.nButton}`}>Contact us</button>
+          <button className={`button ${style.nButton}`}>Contact</button>
         </div>
       </div>
     </>
