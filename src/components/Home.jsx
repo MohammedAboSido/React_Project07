@@ -6,6 +6,7 @@ import Experience from "./Experience/Experience";
 import Works from "./Works/Works";
 import Protfolio from "./Portfolio/Protfolio";
 import Testimonials from "./Testimonials/Testimonials";
+import Contact from "./Contact/Contact";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Works/>
       <Protfolio/>
       <Testimonials/>
+      <Contact/>
     </>
   );
 }
