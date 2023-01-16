@@ -1,6 +1,6 @@
 
 # Demo
-Open [https://fitclubgym-51u.pages.dev/](https://fitclubgym-51u.pages.dev//) to view project.
+Open [https://personal-portfolio-bxd.pages.dev/](https://personal-portfolio-bxd.pages.dev/) to view project.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
