@@ -80,3 +80,15 @@ textarea{
     left: -18rem !important;
     background-color: #ABF1FF94 !important;
 }
+
+@media screen and (max-width: 480px) {
+    .contactForm{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .right .user{
+        width: 16rem;
+    }
+}   
