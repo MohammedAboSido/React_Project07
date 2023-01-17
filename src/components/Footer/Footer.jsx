@@ -1,8 +1,12 @@
-import React from "react";
-import style from  "./style.module.css";
-import Wave from "../../assets/img/wave.png";
-import {faInstagram , faFacebook , faGithub} from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faGithub,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import Wave from "../../assets/img/wave.png";
+import style from "./style.module.css";
 
 export default function Footer() {
   return (
@@ -11,9 +15,9 @@ export default function Footer() {
       <div className={style.content}>
         <span>abosido2@gmail.com</span>
         <div className={style.icons}>
-        <FontAwesomeIcon icon={faInstagram} />
-        <FontAwesomeIcon icon={faFacebook} />
-        <FontAwesomeIcon icon={faGithub}  />
+          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faFacebook} />
+          <FontAwesomeIcon icon={faGithub} />
         </div>
       </div>
     </div>

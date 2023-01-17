@@ -116,15 +116,17 @@
 
 @media screen and (max-width: 480px) {
     .hero {
-      flex-direction: column;
-      gap: 7rem;
-      height: 64rem;
+        flex-direction: column;
+        gap: 7rem;
+        height: 64rem;
     }
+
     .right {
-      transform: scale(0.8);
-      left: -3rem;
+        transform: scale(0.8);
+        left: -3rem;
     }
+
     .right .blur {
-      display: none !important;
+        display: none !important;
     }
-  }
+}

@@ -1,13 +1,13 @@
 import React from "react";
+import Contact from "./Contact/Contact";
+import Experience from "./Experience/Experience";
+import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
-import Services from "./Services/Services";
-import Experience from "./Experience/Experience";
-import Works from "./Works/Works";
 import Protfolio from "./Portfolio/Protfolio";
+import Services from "./Services/Services";
 import Testimonials from "./Testimonials/Testimonials";
-import Contact from "./Contact/Contact";
-import Footer from "./Footer/Footer";
+import Works from "./Works/Works";
 
 export default function Home() {
   return (
@@ -15,12 +15,12 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
-      <Experience/>
-      <Works/>
-      <Protfolio/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
+      <Experience />
+      <Works />
+      <Protfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 }

@@ -1,12 +1,12 @@
-import React from 'react';
-import style from './style.module.css';
-import 'swiper/css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import sidebar from '../../assets/img/sidebar.png';
-import ecommerce from '../../assets/img/ecommerce.png';
-import hoc from '../../assets/img/hoc.png';
-import musicApp from '../../assets/img/musicapp.png';
-export default function Protfolio () {
+import React from "react";
+import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import ecommerce from "../../assets/img/ecommerce.png";
+import hoc from "../../assets/img/hoc.png";
+import musicApp from "../../assets/img/musicapp.png";
+import sidebar from "../../assets/img/sidebar.png";
+import style from "./style.module.css";
+export default function Protfolio() {
   return (
     <>
       <div className={style.portfolio}>
@@ -21,19 +21,19 @@ export default function Protfolio () {
           className={style.portfolioSlider}
         >
           <SwiperSlide>
-            <img src={sidebar} alt='' />
+            <img src={sidebar} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={ecommerce} alt='' />
+            <img src={ecommerce} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={musicApp} alt='' />
+            <img src={musicApp} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={hoc} alt='' />
+            <img src={hoc} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
     </>
-  )
+  );
 }
